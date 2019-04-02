@@ -21,7 +21,7 @@ class School
   def sort
     @roster.each do |grade, students|
       #binding.pry
-      @roster[students]
+      @roster[students] # grade is the key, we want to sort the values of the keys
     end
   end
 end
