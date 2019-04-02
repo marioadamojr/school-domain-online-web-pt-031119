@@ -9,8 +9,8 @@ class School
   end
 
   def add_student(student_name, student_grade)
-    @roster[student_grade] ||= []
-    @roster[student_grade] << student_name
+    @roster[student_grade] ||= []    #this makes the key
+    @roster[student_grade] << student_name  #the assigns a value to the key
     #binding.pry
   end
 
