@@ -21,7 +21,7 @@ class School
   def sort
     @roster.each do |grade, students|
       #binding.pry
-      students.sort! # grade is the key, we want to sort the values of the keys
+      students.sort! # grade is the key, we want to sort the VALUES of the keys. using exclamaition point returns the value
     end
   end
 end
