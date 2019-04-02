@@ -17,4 +17,9 @@ class School
   def grade(class_grade)
     @roster[class_grade]  #this calls the grade by calling the roster key equal to class_grade
   end
+
+  def sort
+    @roster.each do |grade|
+      @roster[grade].sort!
+    end
 end
