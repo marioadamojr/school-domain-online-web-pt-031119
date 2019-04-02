@@ -15,6 +15,6 @@ class School
   end
 
   def grade(class_grade)
-    @roster[class_grade]
+    @roster[class_grade]  #this calls the grade by calling the roster key equal to class_grade
   end
 end
