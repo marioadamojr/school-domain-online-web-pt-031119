@@ -1,4 +1,5 @@
 # code here!
+require 'pry'
 class School
   attr_accessor :roster
 
@@ -11,5 +12,5 @@ class School
     @roster[student_grade] ||= []
     @roster[student_grade] << student_name
   end
-
+binding.pry
 end
